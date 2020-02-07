@@ -46,21 +46,21 @@ add_tag = function (id) {
     }
 }
 reset = function () {
-    output = "{\n\t\"filter\":{\n\t\t\"forDocumentTypes\": " + scan_form() + "\n\t},\n\t\"output\": [\n";
+    output = "{\n\t\"filter\":{\n\t\t\"forDocumentTypes\": " + scan_form() + "\n\t},\n\t\"output\": {\n\t\t\"fields\": [\n";
     for (r in res) {
         if (isNaN(res[r])) {
             s = res[r];
             id = parseInt(s.slice(s.indexOf("(") + 1, s.indexOf(")")));
             fn = s.slice(0, s.indexOf("("));
             d = data.filter(function (x) { return x["id"] == id })[0];
-            output += "\t\t{ \"key\": \"" + d.key + "\", \"DisplayName\": \"" + d.description +
+            output += "\t\t\t{ \"key\": \"" + d.key + "\", \"DisplayName\": \"" + d.description +
                 "\", \"function\": \"" + fn + "\" },\n";
         } else {
             d = data.filter(function (x) { return x["id"] == res[r] })[0];
-            output += "\t\t{ \"key\": \"" + d.key + "\", \"DisplayName\": \"" + d.description + "\" },\n";
+            output += "\t\t\t{ \"key\": \"" + d.key + "\", \"DisplayName\": \"" + d.description + "\" },\n";
         }
     }
-    output = output.slice(0, output.length - 2) + "\n\t]\n}";
+    output = output.slice(0, output.length - 2) + "\n\t\t]\n\t}\n}";
     document.getElementById("output").innerHTML = output;
 }
 xhr = new XMLHttpRequest();
@@ -78,6 +78,7 @@ for (d in data) {
             "<select id=\"select" + data[d].id + "\">\
                     <option value=\"---\">---</option>\
                     <option value=\"sum\">sum</option>\
+                    <option value=\"count\">count</option>\
                     <option value=\"avg\">avg</option>\
                 </select>": "") + "</td>\
             <td><button id=\"button" + data[d].id + "\" onclick=\"add_tag(" + data[d].id + ")\">Добавить</button></td>\
