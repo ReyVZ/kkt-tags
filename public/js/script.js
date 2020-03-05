@@ -53,11 +53,11 @@ reset = function () {
             id = parseInt(s.slice(s.indexOf("(") + 1, s.indexOf(")")));
             fn = s.slice(0, s.indexOf("("));
             d = data.filter(function (x) { return x["id"] == id })[0];
-            output += "\t\t\t{ \"key\": \"" + d.key + "\", \"DisplayName\": \"" + d.description +
+            output += "\t\t\t{ \"key\": \"" + d.key + "\", \"DisplayName\": \"" + d.default +
                 "\", \"function\": \"" + fn + "\" },\n";
         } else {
             d = data.filter(function (x) { return x["id"] == res[r] })[0];
-            output += "\t\t\t{ \"key\": \"" + d.key + "\", \"DisplayName\": \"" + d.description + "\" },\n";
+            output += "\t\t\t{ \"key\": \"" + d.key + "\", \"DisplayName\": \"" + d.default + "\" },\n";
         }
     }
     output = output.slice(0, output.length - 2) + "\n\t\t]\n\t}\n}";
@@ -73,6 +73,7 @@ for (d in data) {
             <td>" + data[d].id + "</td>\
             <td>" + data[d].key + "</td>\
             <td>" + data[d].description + "</td>\
+            <td>" + data[d].default + "</td>\
             <td>" + data[d].doc + "</td>\
             <td>" + (data[d].aggr == true ?
             "<select id=\"select" + data[d].id + "\">\
