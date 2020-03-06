@@ -43,6 +43,7 @@ if __name__ == '__main__':
     }
     app = KKT()
     app.generator = DictGenerator()
-    cherrypy.config.update({'server.socket_host': '0.0.0.0'})
+    # cherrypy.config.update({'server.socket_host': '0.0.0.0'})
+    cherrypy.config.update({'server.socket_host': '127.0.0.1'})
     cherrypy.config.update({'server.socket_port': 8080})
     cherrypy.quickstart(app, '/', conf)
