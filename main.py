@@ -1,6 +1,7 @@
 import os
 import cherrypy
 import pandas as pd
+import requests
 
 
 class KKT(object):
@@ -18,7 +19,15 @@ class KKT(object):
 class DictGenerator(object):
     @cherrypy.tools.accept(media='application/json')
     def GET(self):
-        data = pd.read_html('Dictionary.html')[0]
+        # data = pd.read_html('Dictionary.html')[0]
+        data = None
+        r = requests.get('https://webreport.taxcom.ru/Info/Dictionary')
+        if r.status_code == 200:
+            with open('dict_backup.html', 'w') as f:
+                f.write(r.text)
+            data = pd.read_html(r.text)[0]
+        else:
+            data = pd.read_html(open('dict_backup.html', 'r', encoding='utf-8').read())[0]
         data.columns = ['key', 'description', 'default', 'type', 'aggr', 'doc']
         data['id'] = list(range(len(data)))
         data['aggr'] = data['aggr'].apply(

@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="/Content/css?v=m8KdMFOCcNeZrATLbCQ_9gxex1_Ma7rE5iJzJXojUIk1" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">KktWebReportsService</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Домашняя страница</a></li>
+                    <li><a href="/Swagger">Swagger</a></li>
+                    <li><a href="/Info/Dictionary">Описание блоков</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        
+<div>
+    <h3>
+        Список ключей словаря </br>
+        <small>Используется при составлении json-тела запроса</small>
+    </h3>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Ключ</th>
+                <th>Описание</th>
+                <th>Название столбца по умолчанию</th>
+                <th>Тип по умолчанию</th>
+                <th>Агрегирование</th>
+                <th>Возможные типы документов</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AccountableFormSign</td>
+                <td>Признак АС БСО</td>
+                <td>Признак АС БСО</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11</b>
+                </td>
+                </tr>
+            <tr>
+                <td>AccountingSign</td>
+                <td>Признак предмета расчёта для товара</td>
+                <td>Признак предмета расчёта</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>AccountingType</td>
+                <td>Признак расчета</td>
+                <td>Признак расчета</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>AdditionalReceiptProperty</td>
+                <td>Дополнительный реквизит чека (БСО)</td>
+                <td>Дополнительный реквизит чека (БСО)</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>3, 4</b>
+                </td>
+                </tr>
+            <tr>
+                <td>AddressOfBuyer</td>
+                <td>Адрес покупателя (при наличии)</td>
+                <td>Адрес покупателя</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>3, 4, 31, 41, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>AddressOfSale</td>
+                <td>Адрес (место) расчетов (из чека)</td>
+                <td>Адрес (место) расчетов</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11, 2, 21, 3, 31, 4, 41, 5, 6</b>
+                </td>
+                </tr>
+            <tr>
+                <td>AgentSign</td>
+                <td>Признак агента</td>
+                <td>Признак агента</td>
+                <td>SimpleInt</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11, 3, 31, 301, 4, 41, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>AgentSignOnSubjectCalculation</td>
+                <td>Признак агента по предмету расчета</td>
+                <td>Признак агента по предмету расчета</td>
+                <td>SimpleInt</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>AgentSignOnSubjectCalculation_FIX</td>
+                <td>НЕ ИСПОЛЬЗОВАТЬ!!! Признак агента по предмету расчета</td>
+                <td>Признак агента по предмету расчета</td>
+                <td>SimpleInt</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>3, 31, 4, 41</b>
+                </td>
+                </tr>
+            <tr>
+                <td>AutomaticDeviceNumber</td>
+                <td>Заводской номер автоматического устройства для расчетов</td>
+                <td>Номер автомата</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11, 3, 31, 4, 41</b>
+                </td>
+                </tr>
+            <tr>
+                <td>AutomaticModeSign</td>
+                <td>Признак автоматического режима</td>
+                <td>Признак автоматического режима</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11</b>
+                </td>
+                </tr>
+            <tr>
+                <td>CalculationSign</td>
+                <td>Признак способа расчета</td>
+                <td>Признак способа расчета</td>
+                <td>SimpleInt</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Cash</td>
+                <td>Наличными</td>
+                <td>Наличными</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>CashdeskName</td>
+                <td>Наименование ККТ</td>
+                <td>Наименование ККТ</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>401, 31, 6, 41, 5, 3, 21, 1, 11, 2, 301, 4</b>
+                </td>
+                </tr>
+            <tr>
+                <td>CashExpenditure</td>
+                <td>Расход наличными</td>
+                <td>Расход наличными</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>CashExpenditureReturn</td>
+                <td>Возврат расхода наличными</td>
+                <td>Возврат расхода наличными</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Cashier</td>
+                <td>Имя кассира</td>
+                <td>Кассир</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>CashierInn</td>
+                <td>ИНН кассира</td>
+                <td>ИНН кассира</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11, 2, 3, 31, 301, 4, 41, 401, 5, 6</b>
+                </td>
+                </tr>
+            <tr>
+                <td>CashIncomeReturn</td>
+                <td>Возврат прихода наличными</td>
+                <td>Возврат прихода наличными</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>CashIncoming</td>
+                <td>Наличными (только приходы)</td>
+                <td>Приход (наличные)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>CashRaw</td>
+                <td>Наличными (&quot;сырое&quot; значение из чека))</td>
+                <td>Наличными</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Chno</td>
+                <td>Номер чека за смену</td>
+                <td>Номер чека за смену</td>
+                <td>SimpleInt</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>401, 301, 3, 31, 41, 4</b>
+                </td>
+                </tr>
+            <tr>
+                <td>CorrectionType</td>
+                <td>Тип коррекции</td>
+                <td>Тип коррекции</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 41</b>
+                </td>
+                </tr>
+            <tr>
+                <td>CounterInroduction</td>
+                <td>Обмен(встречное предоставление)</td>
+                <td>Обмен (встречное предоставление)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Credit</td>
+                <td>Итоговая сумма в чеках (БСО) постоплатами (кредитами)</td>
+                <td>Итоговая сумма постоплатами (кредитами)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>DepartmentName</td>
+                <td>Название подразделения</td>
+                <td>Подразделение</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>DocumentNumber</td>
+                <td>Номер фискального документа</td>
+                <td>ФД</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>DocumentType</td>
+                <td>Тип документа (Кассовый чек, Отчет об открытии смены, Отчет о регистрации и т.п.)</td>
+                <td>Тип документа</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>401, 31, 6, 41, 5, 3, 21, 1, 11, 2, 301, 4</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Electronic</td>
+                <td>Безналичными</td>
+                <td>Безналичными</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ElectronicExpenditure</td>
+                <td>Расход безналичными</td>
+                <td>Расход безналичными</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ElectronicExpenditureReturn</td>
+                <td>Возврат расхода безналичными</td>
+                <td>Возврат расхода безналичными</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ElectronicIncomeReturn</td>
+                <td>Возврат прихода безналичными</td>
+                <td>Возврат прихода безналичными</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ElectronicIncoming</td>
+                <td>Безналичными (только приходы)</td>
+                <td>Приход (безналичными)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ElectronicRaw</td>
+                <td>Безналичными (&quot;сырое&quot; значение из чека)</td>
+                <td>Безналичными</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>EncryptionSign</td>
+                <td>Признак шифрования</td>
+                <td>Признак шифрования</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ExciseSign</td>
+                <td>Признак торговли подакцизными товарами</td>
+                <td>Признак торговли подакцизными товарами</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Expenditure</td>
+                <td>Расход</td>
+                <td>Расход</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ExpenditureReturn</td>
+                <td>Возврат расхода</td>
+                <td>Возврат расхода</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Fpd</td>
+                <td>Фискальный признак документа</td>
+                <td>ФПД</td>
+                <td>SimpleInt</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GamblingSign</td>
+                <td>ККТ предназначено для проведения азартных игр</td>
+                <td>Проведение азартных игр</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsCTotal</td>
+                <td>Сумма [товарная позиция]</td>
+                <td>Итог</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsCTotalRaw</td>
+                <td>Итог (&quot;сырое&quot; значение) [товарная позиция]</td>
+                <td>Итог (тэг)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsCTotalWithoutNds</td>
+                <td>Итог без НДС [товарная позиция]</td>
+                <td>Итог без НДС</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsNds0</td>
+                <td>НДС 0% [товарная позиция]</td>
+                <td>НДС 0%</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsNds10</td>
+                <td>НДС10% [товарная позиция]</td>
+                <td>НДС 10%</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsNds20</td>
+                <td>НДС18% или 20% [товарная позиция]</td>
+                <td>НДС 18% или 20%</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>301</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsNdsc10</td>
+                <td>НДС с рассчитанной ставкой 10% [товарная позиция]</td>
+                <td>НДС 10/110</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsNdsc20</td>
+                <td>НДС c рассчитанной ставкой 18% или 20% [товарная позиция]</td>
+                <td>НДС 18/118 или 20/120</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsNdsNo</td>
+                <td>НДС не облагается [товарная позиция]</td>
+                <td>НДС не облагается</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsNdsType</td>
+                <td>Ставка НДС по позиции в чеке</td>
+                <td>Ставка НДС</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsProductName</td>
+                <td>Наименование товара</td>
+                <td>Наименование товара</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsQuantity</td>
+                <td>Количество товара</td>
+                <td>Количество</td>
+                <td>Float</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>GoodsUnitCost</td>
+                <td>Цена за единицу</td>
+                <td>Цена за единицу</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Income</td>
+                <td>Приход</td>
+                <td>Приход</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>IncomeReturn</td>
+                <td>Возврат прихода</td>
+                <td>Возврат прихода</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Inn</td>
+                <td>ИНН</td>
+                <td>ИНН</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>InternalId</td>
+                <td>Внутренний идентификатор ОФД</td>
+                <td>Внутренний идентификатор ОФД</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11, 2, 21, 3, 31, 301, 4, 401, 41, 5, 6</b>
+                </td>
+                </tr>
+            <tr>
+                <td>InternetOnlySign</td>
+                <td>ККТ для расчетов только в  Интернете</td>
+                <td>Для расчётов в Интернете</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11, 3, 31, 4, 41</b>
+                </td>
+                </tr>
+            <tr>
+                <td>KeysResource</td>
+                <td>Ресурс ключей ФП</td>
+                <td>Ресурс ключей ФП</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11, 5</b>
+                </td>
+                </tr>
+            <tr>
+                <td>LotterySign</td>
+                <td>ККТ предназначено для проведения лотерей</td>
+                <td>Проведение лотереи</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Nds0</td>
+                <td>НДС 0%</td>
+                <td>НДС 0%</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Nds0Incoming</td>
+                <td>НДС 0% (только приходы)</td>
+                <td>НДС 0% приход</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Nds0Raw</td>
+                <td>НДС 0% (&quot;сырое&quot; значение из чека)</td>
+                <td>НДС 0%</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Nds0Return</td>
+                <td>НДС 0% (только возвраты)</td>
+                <td>НДС 0% возврат</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Nds10</td>
+                <td>НДС10%</td>
+                <td>НДС 10%</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Nds10Incoming</td>
+                <td>НДС10% (только приходы)</td>
+                <td>НДС 10% приход</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Nds10Raw</td>
+                <td>НДС10% (&quot;сырое&quot; значение из чека)</td>
+                <td>НДС 10%</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Nds10Return</td>
+                <td>НДС10% (только возвраты)</td>
+                <td>НДС 10% возврат</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Nds20</td>
+                <td>НДС18%или20%</td>
+                <td>НДС 18% или 20%</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 4, 41, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Nds20Incoming</td>
+                <td>НДС18% или 20% (только приходы)</td>
+                <td>НДС 18% или 20% приход</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Nds20Raw</td>
+                <td>НДС18% или 20% (&quot;сырое&quot; значение из чека)</td>
+                <td>НДС 18% или 20%</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Nds20Return</td>
+                <td>НДС18% или 20% (только возвраты)</td>
+                <td>НДС 18% или 20% возврат</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Ndsc10</td>
+                <td>НДС итога чека с рассчитанной ставкой 10%</td>
+                <td>НДС 10/110</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Ndsc10Incoming</td>
+                <td>НДС итога чека с рассчитанной ставкой 10% (только приходы)</td>
+                <td>НДС 10/110 (приход)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Ndsc10Raw</td>
+                <td>НДС итога чека с рассчитанной ставкой 10% (&quot;сырое&quot; значение из чека)</td>
+                <td>НДС 10/110)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Ndsc10Return</td>
+                <td>НДС итога чека с рассчитанной ставкой 10% (только возвраты)</td>
+                <td>НДС 10/110 (возврат)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Ndsc20</td>
+                <td>НДС итога чека с рассчитанной ставкой 18% или 20%</td>
+                <td>НДС 18/118 или 20/120</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Ndsc20Incoming</td>
+                <td>НДС итога чека с рассчитанной ставкой 18% или 20% (только приходы)</td>
+                <td>НДС 18/118 или 20/120 (приход)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Ndsc20Raw</td>
+                <td>НДС итога чека с рассчитанной ставкой 18% или 20% (&quot;сырое&quot; значение из чека)</td>
+                <td>НДС 18/118 или 20/120 (тэг)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Ndsc20Return</td>
+                <td>НДС итога чека с рассчитанной ставкой 18% или 20% (только возвраты)</td>
+                <td>НДС 18/118 или 20/120 (возврат)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>NdsNo</td>
+                <td>НДС не облагается</td>
+                <td>НДС не облагается</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>NdsNoIncoming</td>
+                <td>НДС не облагается (только приходы)</td>
+                <td>НДС не облагается приход</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>NdsNoRaw</td>
+                <td>НДС не облагается (&quot;сырое&quot; значение из чека)</td>
+                <td>НДС не облагается</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>NdsNoReturn</td>
+                <td>НДС не облагается (только возвраты)</td>
+                <td>НДС не облагается возврат</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>NdsSumForSubjectCalculation</td>
+                <td>Сумма НДС за предмет расчёта</td>
+                <td>Сумма НДС за предмет расчёта</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>OfdEmail</td>
+                <td>Адрес электронной почты отправителя чека (ОФД)</td>
+                <td>E-mail отправителя чека</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11, 3, 31, 4, 41</b>
+                </td>
+                </tr>
+            <tr>
+                <td>OfdName</td>
+                <td>Наименование ОФД</td>
+                <td>Наименование ОФД</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11</b>
+                </td>
+                </tr>
+            <tr>
+                <td>OutletAddress</td>
+                <td>Адрес торговой точки</td>
+                <td>Адрес торговой точки</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>OutletCode</td>
+                <td>Код торговой точки</td>
+                <td>Код торговой точки</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>OutletName</td>
+                <td>Наименование торговой точки</td>
+                <td>Торговая точка</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>PaymentType</td>
+                <td>Способ оплаты (наличными или безналичными)</td>
+                <td>Способ оплаты</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>PlaceOfSale</td>
+                <td>Место расчётов</td>
+                <td>Место расчётов</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11</b>
+                </td>
+                </tr>
+            <tr>
+                <td>PositionCount</td>
+                <td>Количество товарных позиций в чеке или БСО</td>
+                <td>Количество товарных позиций</td>
+                <td>Float</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 4</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Prepayment</td>
+                <td>Аванс(Предоплата)</td>
+                <td>Аванс (предоплата)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>PrinterSign</td>
+                <td>Признак установки принтера </td>
+                <td>Признак установки принтера</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ReceiptDate</td>
+                <td>Дата чека</td>
+                <td>Дата</td>
+                <td>Date</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ReceiptDateTime</td>
+                <td>Дата/Время</td>
+                <td>Время чека</td>
+                <td>DateTime</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ReceiveDate</td>
+                <td>Дата поступления документа к ОФД (UTC)</td>
+                <td>Дата поступления (UTC)</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>401, 31, 6, 41, 5, 3, 21, 1, 11, 2, 301, 4</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ReceiveDateTime</td>
+                <td>Дата и время поступления документа к ОФД (UTC)</td>
+                <td>Дата и время поступления (UTC)</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>401, 31, 6, 41, 5, 3, 21, 1, 11, 2, 301, 4</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ReRegistrationReasonCode</td>
+                <td>Код причины перерегистрации</td>
+                <td>Код причины перерегистрации</td>
+                <td>SimpleInt</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>11</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Rnm</td>
+                <td>РНМ</td>
+                <td>РНМ</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ServicesPaymentsSign</td>
+                <td>Признак расчетов за услуги</td>
+                <td>Признак расчетов за услуги</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11</b>
+                </td>
+                </tr>
+            <tr>
+                <td>ShiftNumber</td>
+                <td>Порядковый номер смены</td>
+                <td>Номер смены</td>
+                <td>SimpleInt</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Snfn</td>
+                <td>Серийный номер фискального накопителя(ФН)</td>
+                <td>Зав № ФН</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Snkkt</td>
+                <td>Заводской номер ККТ</td>
+                <td>ЗН ККТ</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>31, 6, 41, 5, 3, 21, 1, 11, 2, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>SupplierInn</td>
+                <td>ИНН поставщика</td>
+                <td>ИНН поставщика</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>3, 31, 4</b>
+                </td>
+                </tr>
+            <tr>
+                <td>SupplierName</td>
+                <td>Наименование поставщика</td>
+                <td>Наименование поставщика</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>TaxationSystem</td>
+                <td>Применяемая система налогообложения</td>
+                <td>Применяемая система налогообложения</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>401, 301, 3, 31, 41, 4</b>
+                </td>
+                </tr>
+            <tr>
+                <td>TaxSystems</td>
+                <td>Системы налогообложения</td>
+                <td>Системы налогообложения</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11</b>
+                </td>
+                </tr>
+            <tr>
+                <td>Total</td>
+                <td>Итог (учитываются приходы и расходы)</td>
+                <td>Итог</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>TotalCorrection</td>
+                <td>Сумма по чекам коррекции</td>
+                <td>Сумма по чекам коррекции</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>31, 41</b>
+                </td>
+                </tr>
+            <tr>
+                <td>TotalIncoming</td>
+                <td>Итог (только приходы)</td>
+                <td>Итог (только приходы)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>TotalRaw</td>
+                <td>Итог (&quot;сырое&quot; значение из чека)</td>
+                <td>Итог (тэг)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>TotalReturn</td>
+                <td>Итог (только возвраты)</td>
+                <td>Итог (только возвраты)</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>TotalWithoutNds</td>
+                <td>Итог без НДС</td>
+                <td>Итог без НДС</td>
+                <td>Money</td>
+                <td>
+<p>Возможно</p>                                    </td>
+                <td>
+                    <b>3, 31, 41, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>UserName</td>
+                <td>Наименование пользователя</td>
+                <td>Наименование пользователя</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>1, 11, 2, 21, 3, 31, 4, 5, 6</b>
+                </td>
+                </tr>
+            <tr>
+                <td>UserPropertyJson</td>
+                <td>Дополнительный реквизит пользователя (JSON)</td>
+                <td>Дополнительный реквизит пользователя</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>3, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>UserPropertyName</td>
+                <td>Наименование дополнительного реквизита</td>
+                <td>Наименование дополнительного реквизита</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>3, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>UserPropertyValue</td>
+                <td>Значение дополнительного реквизита</td>
+                <td>Значение дополнительного реквизита</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>3, 4, 301, 401</b>
+                </td>
+                </tr>
+            <tr>
+                <td>VersionFD</td>
+                <td>Версия ФФД</td>
+                <td>Версия ФФД</td>
+                <td>SimpleString</td>
+                <td>
+                                    </td>
+                <td>
+                    <b>401, 31, 6, 41, 5, 3, 21, 1, 11, 2, 301, 4</b>
+                </td>
+                </tr>
+            </tbody>
+        </table>
+</div>
+
+        <hr />
+        <footer>
+        </footer>
+    </div>
+
+    <script src="/bundles/jquery?v=pHJ204Uy3bUyZ5G_puYDdbIplBU24mwGoRfw55PBGIQ1"></script>
+
+    <script src="/bundles/bootstrap?v=2Fz3B0iizV2NnnamQFrx-NbYJNTFeBJ2GM05SilbtQU1"></script>
+
+    
+</body>
+</html>

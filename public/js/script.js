@@ -73,6 +73,7 @@ for (d in data) {
             <td>" + data[d].id + "</td>\
             <td>" + data[d].key + "</td>\
             <td>" + data[d].description + "</td>\
+            <td>" + data[d].default + "</td>\
             <td>" + data[d].doc + "</td>\
             <td>" + (data[d].aggr == true ?
             "<select id=\"select" + data[d].id + "\">\
