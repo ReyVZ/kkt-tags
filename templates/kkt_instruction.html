@@ -1,9 +1,232 @@
 {% extends 'base.html' %}
 {% block form %}
 <form action="logout" class="form-inline my-2 my-lg-0"><a class="nav-link disabled" href="#">{{ username }}</a><button
-        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Выйти</button></form>
+                class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Выйти</button></form>
 {% endblock %}
 
 {% block root %}
-<div id="root"></div>
+
+<div class="accordion" id="accordionExample">
+        <div class="card">
+                <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <p class="h4">Расположение</p>
+                                </button>
+                        </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                                <p>
+                                        Утилита отправки персональных отчетов ККТ расположена на машине
+                                        <strong>statisticsunite.corp.loc</strong>
+                                        по пути C:\Sheduler\KKT.Statistics.United.</br>
+                                        Доступ к машине: <strong>.\kktadmin</strong> <strong>P@r0v0z</strong> (под этой
+                                        записью
+                                        создаются и
+                                        просматриваются все
+                                        задачи в планировщике).
+                                        Для входа под доменной УЗ необходимо оформить заявку в СТО.</br>
+                                        Запуск утилиты осуществляетя в коммандной строке с двумя параметрами: 1) путь к
+                                        файлу
+                                        конфигурации 2) метка
+                                        запуска для записи в лог.</br>
+                                        Пример запуска:</br>
+                                        <code>.\KKT.Statistics.Invoker.exe configs\test_config.config test</code>
+                                </p>
+                        </div>
+                </div>
+        </div>
+        <div class="card">
+                <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <p class="h4">Параметры конфигурационного файла .config</p>
+                                </button>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                                <p>
+                                        num="1": путь к json-файлу шаблона отчета (должен находиться в папке templates в
+                                        корневой
+                                        директории
+                                        утилиты)</br>
+                                        num="2": наименование отчета</br>
+                                        num="3": суффикс (подпись, следующая после наименования, вида "за {date_from}"
+                                        ).
+                                        Предусмотрена
+                                        возможность
+                                        использования псевдонимов {date_from}, {date_to}</br>
+                                        num="4": ИНН либо external_id (из БД AFD)</br>
+                                        num="5": доступные временные интервалы (по дате и времени из чека).</br>
+                                        Весь список в таблице по <a
+                                                href="https://dev.taxcom.ru/wiki/display/KKT/KKTStatisticsUnited:+WebReport">ссылке</a>
+                                </p>
+                                <p>
+                                        При наличии нескольких конфигураций в одном файле необходимо присвоить
+                                        уникальные id
+                                        тегам
+                                        &lt;Statistic&gt;</br>
+                                        Используемые значения атрибута dataType в теге &lt;Output&gt;: excel, csv,
+                                        csv/zip
+                                        (выходной
+                                        формат файла).</br>
+                                        Пример:
+                                </p>
+                                <pre>
+                        &lt;?xml version="1.0" encoding="utf-8"?&gt;
+                        &lt;configuration&gt;
+                            &lt;configSections&gt;
+                                &lt;section name="StatisticsConfig" type="KKT.Statistics.Configuration.StatisticsSection, KKT.Statistics.Configuration"/&gt;
+                            &lt;/configSections&gt;
+                            &lt;StatisticsConfig&gt;
+                                &lt;Statistics&gt;
+                                    &lt;Statistic name="WebReport" id="1"&gt;
+                                        &lt;Params&gt;
+                                            &lt;Param num="1" type="string" value="\121513247120.json"/&gt;
+                                            &lt;Param num="2" type="string" value="[ККТ] Сводный отчет ИП Белянин"/&gt;
+                                            &lt;Param num="3" type="string" value="с {date_from} по {date_to}"/&gt;
+                                            &lt;Param num="4" type="string" value="121513247120"/&gt;
+                                            &lt;Param num="5" type="year" value="prevyear"/&gt;
+                                        &lt;/Params&gt;
+                                        &lt;Output type="email" dataType="excel" value="ZaytsevAV@taxcom.ru" subject="[ККТ] Сводный отчет ИП Белянин" /&gt;
+                                    &lt;/Statistic&gt;	
+                                &lt;/Statistics&gt;
+                            &lt;/StatisticsConfig&gt;
+                        &lt;/configuration&gt;
+                    </pre>
+                                <p>
+                                        Пример тега &lt;Output&gt; для отправки отчета на локальный ресурс:</br>
+                                        <code>&lt;Output type="destinationpath" dataType="excel" value="\\fs21.corp.loc\Обмен\Z"
+                        subject="[ККТ] Отчёт по фискальным документам" /&gt;</code>
+                                </p>
+                        </div>
+                </div>
+        </div>
+        <div class="card">
+                <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <p class="h4">Параметры файла с шаблоном выгрузки .json</p>
+                                </button>
+                        </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                                <p>Сформировать шаблон можно <a href="#">по ссылке</a></p>
+                                <p>
+                                        Необходимо выбрать типы документов из списка:
+                                        <ul>
+                                                <li>Отчёт о регистрации: "RegistrationReport" или <strong>1</strong>
+                                                </li>
+                                                <li>Отчёт об изменении параметров регистрации:
+                                                        "RegistrationChangeReport" или
+                                                        <strong>11</strong></li>
+                                                <li>Отчёт об открытии смены: "ShiftOpenReport" или <strong>2</strong>
+                                                </li>
+                                                <li>Отчёт о текущем состоянии расчетов: "PaymentsStatusReport" или
+                                                        <strong>21</strong>
+                                                </li>
+                                                <li>Кассовый чек: "Receipt" или <strong>3</strong></li>
+                                                <li>Кассовый чек коррекции: "ReceiptCorrection" или <strong>31</strong>
+                                                </li>
+                                                <li>Чек с товарами: "ReceiptGood" или <strong>301</strong></li>
+                                                <li>Бланк строгой отчетности: "FormOfStrictAccountability" или
+                                                        <strong>4</strong></li>
+                                                <li>Бланк строгой отчетности коррекции:
+                                                        "FormOfStrictAccountabilityCorrection" или
+                                                        <strong>41</strong></li>
+                                                <li>Товары из чеков БСО: "BsoGood" или <strong>401</strong></li>
+                                                <li>Отчёт о закрытии смены: "ShiftCloseReport" или <strong>5</strong>
+                                                </li>
+                                                <li>Отчёт о закрытии фискального накопителя: "RegistrationClose" или
+                                                        <strong>6</strong>
+                                                </li>
+                                        </ul>
+                                        и поля для вывода (в некоторых случаях доступны функции аггрегирования).
+                                </p>
+                                <p>
+                                        Более подробная инструкция <a
+                                                href="https://dev.taxcom.ru/wiki/pages/viewpage.action?pageId=105972055">по
+                                                ссылке</a>
+                                        (секция "user" при работе с данной утилитой не работает).
+                                </p>
+                        </div>
+                </div>
+        </div>
+        <div class="card">
+                <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <p class="h4">Отправка отчетов по расписанию</p>
+                                </button>
+                        </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                                <p>На данный момент уже заведены основные типы задача в стандартном планировщике
+                                        Windows.</br>
+                                        Их конфигурационные файлы:
+                                        <ul>
+                                                <li><strong>day_ch.config</strong> - ежедневная отправка</li>
+                                                <li><strong>week.config</strong> - еженедельная отправка</li>
+                                                <li><strong>yearsly.config</strong> - ежегодная отправка</li>
+                                                <li><strong>month_ch.config</strong> - отправка в первый день месяца
+                                                </li>
+                                                <li><strong>month_2d.config</strong> - отправка на второй день месяца
+                                                </li>
+                                                <li><strong>month_3d.config</strong> - отправка на третий день месяца
+                                                </li>
+                                                <li>а также некоторые специально созданные под клиентов</li>
+                                        </ul>
+                                        Для включения отправки очтета по расписанию достаточно добавить конфигурацию в
+                                        один из
+                                        существующих файлов
+                                        (с
+                                        сохранением уникальныости id).
+                        </div>
+                </div>
+        </div>
+        <div class="card">
+                <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <p class="h4">Дополнительная информация</p>
+                                </button>
+                        </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div class="card-body">
+                                <p>
+                                        <a href="https://webreport.taxcom.ru/Info/Dictionary">Ссылка на оригинальный
+                                                словарь
+                                                ключей</a>
+                                </p>
+                                <p>
+                                        <a href="https://dev.taxcom.ru/wiki/pages/viewpage.action?pageId=105972246">Доп.
+                                                инфо по
+                                                встроенным
+                                                отчетам</a>
+                                </p>
+                                <p>
+                                        <a
+                                                href="http://education.taxcom.ru/wiki/%D0%A2%D0%B0%D0%BA%D1%81%D0%BA%D0%BE%D0%BC-%D0%9E%D0%A4%D0%94:_%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B0_%C2%AB%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%BE%D0%B2%C2%BB">Ссылка
+                                                на сценарий из БЗ по созданию отчетов</a>
+                                </p>
+                        </div>
+                </div>
+        </div>
+</div>
+
+
+
+
+
 {% endblock %}
