@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}

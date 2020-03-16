@@ -1,0 +1,1232 @@
+[06/Mar/2020:20:58:09]  NOT FOUND NEW DICTIONARY
+[06/Mar/2020:20:58:11]  NOT FOUND NEW DICTIONARY
+[06/Mar/2020:20:58:48]  NOT FOUND NEW DICTIONARY
+[06/Mar/2020:21:02:01]  NOT FOUND NEW DICTIONARY
+[06/Mar/2020:21:10:14]  NOT FOUND NEW DICTIONARY
+[06/Mar/2020:21:11:28]  NOT FOUND NEW DICTIONARY
+[06/Mar/2020:21:14:28]  NOT FOUND NEW DICTIONARY
+[06/Mar/2020:21:15:07]  NOT FOUND NEW DICTIONARY
+[06/Mar/2020:21:15:37]  NOT FOUND NEW DICTIONARY
+[06/Mar/2020:21:15:40]  NOT FOUND NEW DICTIONARY
+[06/Mar/2020:21:18:09]  NOT FOUND NEW DICTIONARY
+[06/Mar/2020:21:18:50]  NOT FOUND NEW DICTIONARY
+[06/Mar/2020:21:22:15]  NOT FOUND NEW DICTIONARY
+[07/Mar/2020:19:11:06]  NOT FOUND NEW DICTIONARY
+[07/Mar/2020:19:38:27] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 28, in login
+    open('login.html', 'r'))
+TypeError: can only concatenate str (not "_io.TextIOWrapper") to str
+[07/Mar/2020:19:38:27] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  ORIGIN: http://localhost:8080
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/
+  UPGRADE-INSECURE-REQUESTS: 1
+  Content-Type: application/x-www-form-urlencoded
+  Content-Length: 30
+[07/Mar/2020:20:37:37] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 46, in login
+    if validate_password(username, password):
+TypeError: validate_password() missing 1 required positional argument: 'password'
+[07/Mar/2020:20:37:37] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  ORIGIN: http://localhost:8080
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/login
+  COOKIE: session_id=166fb843afb0238a0ed2c5479a6999ea532df955
+  UPGRADE-INSECURE-REQUESTS: 1
+  Content-Type: application/x-www-form-urlencoded
+  Content-Length: 27
+[08/Mar/2020:16:14:08]  NOT FOUND NEW DICTIONARY
+[08/Mar/2020:16:22:51]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:12:17]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:12:27]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:16:58]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:17:05]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:17:47]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:35:46]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:36:07]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:37:31]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:38:18]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:40:02]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:53:52]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:54:59]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:20:57:08]  NOT FOUND NEW DICTIONARY
+[12/Mar/2020:21:00:07]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:19:57:20]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:19:57:25]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:01:39]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:01:49]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:01:59]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:02:22]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:02:26]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:17:31]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:18:23]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:19:16]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:19:30]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:22:39]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:25:36]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:28:16]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:31:00]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:36:44]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:36:49]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:39:28]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:39:42]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:42:12]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:42:48]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:43:23]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:46:52] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 47, in login
+    if validate_password('localhost', username, password):
+NameError: name 'username' is not defined
+[13/Mar/2020:20:46:52] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: x55a:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=17016d73fb32061de24fedcd153f8ef3014539f8
+  UPGRADE-INSECURE-REQUESTS: 1
+[13/Mar/2020:20:46:55] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 47, in login
+    if validate_password('localhost', username, password):
+NameError: name 'username' is not defined
+[13/Mar/2020:20:46:55] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: x55a:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=7b9d690b6e4dffbd2b605e979fb29eaffe5ead6b
+  UPGRADE-INSECURE-REQUESTS: 1
+[13/Mar/2020:20:50:35]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:53:28]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:54:41]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:20:54:44]  NOT FOUND NEW DICTIONARY
+[13/Mar/2020:21:04:34] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 40, in index
+    return (open('kkt.html', 'r').read().format(cherrypy.session['username']))
+ValueError: unexpected '{' in field name
+[13/Mar/2020:21:04:34] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: x55a:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=f82590223ea421bc61a25812f9c2c337f2f8a01b
+  UPGRADE-INSECURE-REQUESTS: 1
+[14/Mar/2020:15:23:22] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 50, in login
+    res = Template(open('login.html', 'r'))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 945, in __new__
+    return env.from_string(source, template_class=cls)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 880, in from_string
+    return cls.from_code(self, self.compile(source), globals, None)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 581, in compile
+    defer_init=defer_init)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 543, in _generate
+    optimized=self.optimized)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/compiler.py", line 78, in generate
+    raise TypeError('Can\'t compile non template nodes')
+TypeError: Can't compile non template nodes
+[14/Mar/2020:15:23:22] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=278b568b7a5dc89766164cb04edc39fb6a1c8a89
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:15:23:23] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 50, in login
+    res = Template(open('login.html', 'r'))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 945, in __new__
+    return env.from_string(source, template_class=cls)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 880, in from_string
+    return cls.from_code(self, self.compile(source), globals, None)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 581, in compile
+    defer_init=defer_init)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 543, in _generate
+    optimized=self.optimized)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/compiler.py", line 78, in generate
+    raise TypeError('Can\'t compile non template nodes')
+TypeError: Can't compile non template nodes
+[14/Mar/2020:15:23:23] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=921f046e8ce7e739dc76cfc80400da32e495f85b
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:15:30:01]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:15:30:13]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:15:30:21]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:15:30:24]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:15:33:05]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:15:34:14]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:15:39:04]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:15:39:09]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:15:39:13]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:15:39:17]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:15:40:08]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:16:13:46]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:16:22:45] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 62, in login
+    return res.render(error=error)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 1, in top-level template code
+TypeError: no loader for this environment specified
+[14/Mar/2020:16:22:45] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  REFERER: http://localhost:8080/index
+  CONNECTION: keep-alive
+  COOKIE: session_id=9c4bab7114fb4f3840dab0ebb346b7c96faadfa9
+  UPGRADE-INSECURE-REQUESTS: 1
+[14/Mar/2020:16:22:49] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 62, in login
+    return res.render(error=error)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 1, in top-level template code
+TypeError: no loader for this environment specified
+[14/Mar/2020:16:22:49] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=9c4bab7114fb4f3840dab0ebb346b7c96faadfa9
+  UPGRADE-INSECURE-REQUESTS: 1
+[14/Mar/2020:16:23:33] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 62, in login
+    return res.render(error=error)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 1, in top-level template code
+TypeError: no loader for this environment specified
+[14/Mar/2020:16:23:33] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=9c4bab7114fb4f3840dab0ebb346b7c96faadfa9
+  UPGRADE-INSECURE-REQUESTS: 1
+[14/Mar/2020:16:28:35] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 62, in login
+    return res.render(error=error)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 1, in top-level template code
+TypeError: no loader for this environment specified
+[14/Mar/2020:16:28:35] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=9c4bab7114fb4f3840dab0ebb346b7c96faadfa9
+  UPGRADE-INSECURE-REQUESTS: 1
+[14/Mar/2020:17:42:34] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 62, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 797, in _load_template
+    raise TypeError('no loader for this environment specified')
+TypeError: no loader for this environment specified
+[14/Mar/2020:17:42:34] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=1b56c2f28e84d53a4804186cbafa9c653bbe873d
+  UPGRADE-INSECURE-REQUESTS: 1
+[14/Mar/2020:17:51:51] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:17:51:51] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=1b56c2f28e84d53a4804186cbafa9c653bbe873d
+  UPGRADE-INSECURE-REQUESTS: 1
+[14/Mar/2020:17:54:23] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:17:54:23] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=60f84ea7d5bc53ae02861c8eb0ed465137502acc
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:17:54:42] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:17:54:42] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=31b0f7ded8eaf64e1ada536cb4628b1f8655034a
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:17:59:44] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:17:59:44] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=13f4e9e7cf6641d21ccf23e902ff3663d4ce69cc
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:17:59:46] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:17:59:46] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=bc147014367b44e9bb755230d53eaeb88c65819d
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:18:01:49] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:18:01:49] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=657dd69d70a31008ee96ad33d8399df900ca4fab
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:18:01:51] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:18:01:51] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=0c8ce6fc90084192c07f3bcf1a06d2ebf8f8784a
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:18:01:54] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:18:01:54] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=8756a73e57febd7b7a640b8e7df7024681d4220d
+  UPGRADE-INSECURE-REQUESTS: 1
+[14/Mar/2020:18:02:28] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 't/base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:18:02:28] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=7094d11655844b4467c4b495ebe7f38ca4800bcf
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:18:02:52] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:18:02:52] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=8fc585efc008f9f096ce913bed32cf79fb50a830
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:18:02:56] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:18:02:56] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=14c1ca6cb2efb9db970d992e34dac8273350c9f9
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:18:04:04] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:18:04:04] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=b7655ed60d51e7d13be242b6ef64fb125fe171ba
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:18:04:05] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 63, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:18:04:05] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=707ccd1f8c6f065a97022b2733266693824be3f1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:18:04:49] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 64, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:18:04:49] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=2649ee7381c695dba4de07f3ba8ab5fb2aed6ad0
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:18:05:47] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 59, in login
+    print('\n\n\n', ENV.loader.values)
+AttributeError: 'PackageLoader' object has no attribute 'values'
+[14/Mar/2020:18:05:47] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=29bd4c4e5b5951bae8aaa108acdc966d3f7fed7c
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:18:06:11] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 64, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:18:06:11] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=0fb790ed59b3cd83014090e4201689bf4990bc48
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:18:06:27] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 64, in login
+    res = ENV.get_template(open('login.html', 'r').read())
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: {% extends 'base.html' %}
+{% block form %}
+<form method="post" action="auth" class="form-inline my-2 my-lg-0"> <input class="form-control mr-sm-2"
+        placeholder="Имя пользователя" aria-label="Search" type="text" name="username"> <input
+        class="form-control mr-sm-2" type="password" name="password" placeholder="Пароль" aria-label="Search"> <button
+        class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Войти</button></form>
+{% endblock %}
+
+{% block root %}
+<div id="root" class="text-center">{{ error }}</div>
+{% endblock %}
+[14/Mar/2020:18:06:27] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=494623befcc7f0f6ae6af3d0d2f1118da531a895
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[14/Mar/2020:18:07:47] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 64, in login
+    return res.render(error=error)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aviz/coding/kkt/templates/login.html", line 1, in top-level template code
+    {% extends 'templates/base.html' %}
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/base.html
+[14/Mar/2020:18:07:47] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=f4b4d152ff3f29c1a93791d0401a31bd672e6bf9
+  UPGRADE-INSECURE-REQUESTS: 1
+[14/Mar/2020:18:07:55] HTTP 
+Traceback (most recent call last):
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/lib/encoding.py", line 219, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "main.py", line 64, in login
+    return res.render(error=error)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/aviz/coding/kkt/templates/login.html", line 1, in top-level template code
+    {% extends 'templates/base.html' %}
+  File "/home/aviz/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 235, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: templates/base.html
+[14/Mar/2020:18:07:55] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:74.0) Gecko/20100101 Firefox/74.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  COOKIE: session_id=c9e2be0845d6cea48cd1462d42fd0f7402a6d423
+  UPGRADE-INSECURE-REQUESTS: 1
+[14/Mar/2020:18:12:15]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:12:21]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:17:31]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:17:40]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:17:46]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:19:28]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:19:32]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:19:36]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:21:55]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:21:59]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:22:30]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:23:45]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:23:50]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:25:12]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:28:12]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:31:43]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:31:46]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:33:42]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:35:58]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:36:02]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:37:50]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:52:21]  NOT FOUND NEW DICTIONARY
+[14/Mar/2020:18:52:24]  NOT FOUND NEW DICTIONARY
